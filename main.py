@@ -168,7 +168,7 @@ print("Start")
 CALENDAR_STRS = ["what do i have", "do i have plans", "am i busy"]
 OPEN_PROGRAM_STR = "computer open"
 PROGRAM_NAME_STRS = ["firefox", "terminal", "code", "youtube"]
-PROGRAM_SYSTEM_STRS = ["firefox", "gnome-terminal", "code", "youtube"]
+PROGRAM_SYSTEM_STRS = ["firefox", "gnome-terminal", "code", "firefox https://www.youtube.com/"]
 
 while True:
     text = get_audio()
