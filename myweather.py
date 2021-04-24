@@ -6,7 +6,7 @@ from pyowm.utils import timestamps
 class MyWeather():
 
     def __init__(self):
-        owm = OWM('165069cfb23b96fccbe9a1b5841bc3e4')
+        owm = OWM('ID')
         self.mgr = owm.weather_manager()
 
     def get_standardWeather(self, city, country):
